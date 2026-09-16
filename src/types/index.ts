@@ -94,7 +94,7 @@ export interface Location {
   isSharing: boolean;
 }
 
-export interface Notification {
+export interface AppNotification {
   id: string;
   userId: string;
   type: string;

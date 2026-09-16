@@ -1,5 +1,5 @@
 import React, { createContext, useContext, useState, useCallback, ReactNode } from 'react';
-import { User, Group, Message, Trip, Alert, ThreatReport, Location, Notification } from '../types';
+import { User, Group, Message, Trip, Alert, ThreatReport, Location, AppNotification } from '../types';
 import { mockUsers, mockGroups, mockMessages, mockTrips, mockAlerts, mockThreats, mockLocations, mockNotifications } from '../data/mockData';
 
 interface AppState {
@@ -11,7 +11,7 @@ interface AppState {
   alerts: Alert[];
   threats: ThreatReport[];
   locations: Location[];
-  notifications: Notification[];
+  notifications: AppNotification[];
   users: User[];
   activeGroupId: string | null;
   activeTripId: string | null;

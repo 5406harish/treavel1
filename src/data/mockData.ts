@@ -1,4 +1,4 @@
-import { User, Group, Message, Trip, Alert, ThreatReport, Location, Notification, TravelTimeline, MediaItem } from '../types';
+import { User, Group, Message, Trip, Alert, ThreatReport, Location, AppNotification, TravelTimeline, MediaItem } from '../types';
 
 export const mockUsers: User[] = [
   {
@@ -326,7 +326,7 @@ export const mockLocations: Location[] = [
   }
 ];
 
-export const mockNotifications: Notification[] = [
+export const mockNotifications: AppNotification[] = [
   {
     id: 'notif-1',
     userId: 'user-1',
